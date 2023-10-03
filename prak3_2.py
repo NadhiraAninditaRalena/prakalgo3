@@ -26,3 +26,9 @@ for i in range(len(lembar_uang)):
 
 # Menampilkan kembalian
 print("Kembalian: Rp", round(jumlah_uang - total_harga, 2))
+
+# Menampilkan jumlah lembar uang yang dibutuhkan
+for i in range(len(lembar_uang)):
+    if jumlah_lembar_uang[i] > 0:
+print("Lembar", lembar_uang[i], ":", jumlah_lembar_uang[i], "lembar")
+
